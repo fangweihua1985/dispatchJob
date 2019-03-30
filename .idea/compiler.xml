@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dispatchjob_common" />
         <module name="dispatchjob_service" />
         <module name="dispatchjob_web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dispatchJob" target="1.8" />
+      <module name="dispatchjob_common" target="1.8" />
       <module name="dispatchjob_service" target="1.8" />
       <module name="dispatchjob_web" target="1.8" />
     </bytecodeTargetLevel>

@@ -17,6 +17,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>dispatchJob_common</module>
         <module>dispatchJob_web</module>
         <module>dispatchJob_service</module>
     </modules>
